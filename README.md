@@ -11,3 +11,7 @@
 [Niice Moodboard](https://niice.co/m/a5db5b3f3dad30bf229e2a1b3acb9498)
 
 [Style Tile](http://tim-davidson.com/heroes-and-villians/style-tile.pdf)
+
+## Week 5
+
+[Web Typography](https://timtim-101.github.io/heroes/type.html)

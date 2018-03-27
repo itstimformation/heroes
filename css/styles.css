@@ -1,0 +1,79 @@
+/*------------- CSS RESET -----------------------*/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+body{
+  /*width: 75%;
+  max-width: 700px;*/
+  font-family: 'Arial', sans-serif;
+  /*font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman',serif;*/
+  margin: auto;
+  background-color: #414042;
+  color: #333;
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src:url('../fonts/HelveticaNeueLTStd-Bd.otf') format('opentype');
+}
+
+body {
+  font-family: 'Helvetica';
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 40vw 10vw 50vw;
+  grid-template-rows: 80vh 20vh;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  overflow-y: hidden;
+}
+
+.a {
+  grid-column-start: 2;
+  grid-column-end: -1;
+}
+
+h1 {
+  width: 100%;
+  background-color: ;
+  text-transform:  uppercase;
+  font-size: 13.5em;
+  text-align: right;
+}
+
+p.main {
+    line-height: .85em;
+    margin-right: 0;
+    text-align: right;
+    color: #F1F2F2;
+}
+
+h2 {
+  width: 100%;
+  font-size: 5em;
+  text-transform:  uppercase;
+  text-align: right;
+  background-color: ;
+}
+
+p.sub {
+  line-height: 1em;
+  margin-right: 0;
+  text-align: right;
+  color: #9A9D9C;
+}
